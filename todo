@@ -1,0 +1,14 @@
+All times are UTC:
+
+Decide on tool chain:
+  python 3 (3.6.1): 2017-12-29-13-33
+  sqlalchemy (1.2.0): 2017-12-29-13-43
+  wxPython (4.0.0b2): 2017-12-29-15-59
+Create first event: 2017-12-29-15-41-45
+Start todo list: 2017-12-29-16-00
+Add to GitHub
+Figure out migration strategy
+Add Actor, Timeline, and Location objects
+Testing
+wxPython display app
+wxPython creation app
