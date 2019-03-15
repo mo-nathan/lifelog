@@ -2,7 +2,7 @@ from __future__ import with_statement
 import os
 import sys
 
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))  # noqa
 
 from alembic import context
 from sqlalchemy import engine_from_config, pool
@@ -72,6 +72,7 @@ def run_migrations_online():
 
         with context.begin_transaction():
             context.run_migrations()
+
 
 if context.is_offline_mode():
     run_migrations_offline()

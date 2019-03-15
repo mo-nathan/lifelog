@@ -60,3 +60,17 @@ rollback: $(VENV)
 
 run: $(VENV)
 	@. $(ACTIVATE); python lifelog/main.py
+
+test: $(VENV)
+	@. $(ACTIVATE); pytest
+
+PY_FILES = \
+  *.py \
+  lifelog/*.py \
+  lifelog/*/*.py \
+  alembic/*.py \
+  alembic/*/*.py
+
+code-check:
+	@. $(ACTIVATE); pycodestyle $(PY_FILES)
+

@@ -3,6 +3,7 @@ alembic
 toga==0.3.0.dev11
 ipython
 pycodestyle
+pytest
 coverage
 tox
 factory-boy
