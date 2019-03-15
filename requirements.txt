@@ -1,2 +1,8 @@
 sqlalchemy
-wxPython
+alembic
+toga==0.3.0.dev11
+ipython
+pycodestyle
+coverage
+tox
+factory-boy

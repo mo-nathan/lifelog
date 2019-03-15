@@ -1,4 +1,4 @@
-All times are UTC:
+﻿All times are UTC:
 
 Decide on tool chain:
   python 3 (3.6.1): 2017-12-29-13-33
@@ -6,9 +6,29 @@ Decide on tool chain:
   wxPython (4.0.0b2): 2017-12-29-15-59
 Create first event: 2017-12-29-15-41-45
 Start todo list: 2017-12-29-16-00
-Add to GitHub
-Figure out migration strategy
-Add Actor, Timeline, and Location objects
+Add to GitHub: 2017-12-29-16-58
+Figure out migration strategy: 2017-12-31-20
+  Add Actor, Timeline, and Location objects: 2017-12-31-20
+Figure out database management: 2017-12-31-20
+2018-07-15 Have new linux box, got wx working
+2018-08-02 Document how what works works:
+  Best way to access the database to see content
+  Method for accessing database models
+  Method for adding content
+2019-03-14 Switch to BeeWare/toga
+Review alembic choice
+Update packages in requirements.txt
+Add toga page to lifelog tool
+Add toga UI for listing events (I)
+Add toga UI for view an event (R)
+Add toga UI for adding an event (N/C)
 Testing
-wxPython display app
-wxPython creation app
+Adding lifelog interactions as events
+What does editing/deleting events mean? (E/U/D)
+Add toga page to lifelog tool
+Add toga UI for listing events (I)
+Add toga UI for view an event (R)
+Add toga UI for adding an event (N/C)
+Testing
+Adding lifelog interactions as events
+What does editing/deleting events mean? (E/U/D)
