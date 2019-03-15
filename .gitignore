@@ -104,3 +104,5 @@ ENV/
 *~
 
 notes/
+tmp/
+*.lifelog
